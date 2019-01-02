@@ -1,0 +1,22 @@
+package com.example.javacomplete;
+
+public class SIBTest {
+    public static final String owner;
+
+    static {
+        owner = "mik";
+        System.out.println("SBITest static initialization block called");
+    }
+
+    public SIBTest() {
+        System.out.println("SIB constructor called");
+    }
+
+    static  {
+        System.out.println("2nd initialization block called");
+    }
+
+    public void someMethod(){
+        System.out.println("someMethod called");
+    }
+}

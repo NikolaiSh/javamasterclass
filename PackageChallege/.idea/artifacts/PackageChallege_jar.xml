@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PackageChallege:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PackageChallege_jar</output-path>
+    <root id="archive" name="PackageChallege.jar">
+      <element id="module-output" name="PackageChallege" />
+    </root>
+  </artifact>
+</component>
